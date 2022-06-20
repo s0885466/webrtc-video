@@ -54,14 +54,7 @@ export const loadScss = () => ({
         test: /\.s[ac]ss$/i,
         use: [
           { loader: MiniCssExtractPlugin.loader, options: {} },
-          {
-            loader: 'css-loader',
-            options: {
-              modules: {
-                localIdentName: '[name]__[local]___[hash:base64:5]',
-              },
-            },
-          },
+          'css-loader',
           {
             loader: 'postcss-loader',
             options: {

@@ -1,3 +1,7 @@
+body {
+    background-color: #0a91db;
+}
+
 button {
     background: transparent;
     box-shadow: 0 0 0 transparent;
@@ -189,6 +193,7 @@ body {
 }
 
 .checkbox_connection {
+    flex-shrink: 0;
     width: 30px;
     height: 30px;
     background: rgba(196, 196, 196, 0.2);
